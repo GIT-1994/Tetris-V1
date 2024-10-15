@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "tf-state-terraform-vinod" # Replace with your actual S3 bucket name
+    bucket = "jackinfra" # Replace with your actual S3 bucket name
     key    = "Jenkins/terraform.tfstate"
     region = "ap-south-1"
   }
